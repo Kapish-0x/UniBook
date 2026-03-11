@@ -6,7 +6,7 @@ A campus book marketplace where university students can browse the university li
 
 ## Frontend
 
-Built with React 18 and Vite. Has 6 pages — Home, Library, Marketplace, Login, Register, and My Listings. The Library tab shows all official university books and the Marketplace lets students buy and sell second-hand books. Prices are in INR (₹). Uses React Router for navigation, Axios for API calls, and react-hot-toast for notifications.
+Built with React 18 and Vite. Has 6 pages — Home, Library, Marketplace, Login, Register, and My Listings. The Library tab shows all official university books and the Marketplace lets students buy and sell second-hand books. Uses React Router for navigation, Axios for API calls, and react-hot-toast for notifications.
 
 ```bash
 cd client
@@ -33,11 +33,6 @@ PORT=5000
 MONGODB_URI=mongodb://localhost:27017/unibook
 JWT_SECRET=your_secret_key
 CLIENT_URL=http://localhost:5173
-```
-
-To seed the library with sample books:
-```bash
-node seed.js
 ```
 
 ## Tech Stack
